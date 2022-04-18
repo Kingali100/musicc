@@ -1,7 +1,7 @@
 {
     "name": "سورس اغاني",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/Pop-02-15",
+    "logo": "https://telegra.ph/file/88f00e9c84c0a01207adb.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
@@ -62,7 +62,7 @@
         "ALIVE_NAME": {
             "description": "اتركها كما هي",
             "required": true,
-            "value": "༒︎ُِ:َََِِِ𝘼َِِِ𝙄َِِ𝙊َِ𝙎ََِِ𝙃ﷻ"
+            "value": "𝐌𝗨𝐒𝐈𝐂 𝐂𝐎𝐁𝐑𝐀"
         }
     },
     "addons": [],
