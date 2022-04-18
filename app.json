@@ -1,0 +1,87 @@
+{
+    "name": "سورس اغاني",
+    "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
+    "logo": "https://telegra.ph/Pop-02-15",
+    "keywords": [
+        "pytgcalls",
+        "telegram bot",
+        "video stream",
+        "pyrogram"
+    ],
+    "website": "https://t.me/xb_bp",
+    "repository": "https://github.com/alaraqi/musiccc",
+    "success_url": "https://t.me/E_T_B",
+    "env": {
+        "API_ID": {
+            "description": "قم بوضع الايبي ايدي هنا",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "قم بوضع الايبي هاش",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "قم بوضع توكن البوت الخاص بك هنا",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "قم بوضع يوزر بوتك بدون علامة @",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "قم بوضع يوزر بوتك بدون علامة @",
+            "required": true
+        },
+        "ASSISTANT_NAME": {
+            "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
+            "required": true
+        },
+        "SESSION_NAME": {
+            "description": "قم بوضع كود تيرمكس هنا",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "قم بوضع ايدي المطور الاساسي",
+            "required": true
+        },
+        "GROUP_SUPPORT": {
+            "description": "ضع هنا يوزر جروبك بدون علامة @",
+            "required": true,
+            "value": "xb_bk"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ضع هنا يوزر قناتك بدون علامة @",
+            "required": true,
+            "value": "xb_bp"
+        },
+        "OWNER_NAME": {
+            "description": "ضع هنا يوزر المطور بدون علامة @",
+            "required": true,
+            "value": "E_T_B"
+        },
+        "ALIVE_NAME": {
+            "description": "اتركها كما هي",
+            "required": true,
+            "value": "༒︎ُِ:َََِِِ𝘼َِِِ𝙄َِِ𝙊َِ𝙎ََِِ𝙃ﷻ"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
